@@ -5,6 +5,6 @@ from flask import render_template
 
 @app.route('/')
 def index():
-	return ("This is a fe Flask app!")
+	return ("Hey, world. I'm a Flask app!")
 
 
